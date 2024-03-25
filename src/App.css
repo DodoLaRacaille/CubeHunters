@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Espacement entre chaque élément */
+  border: 1px solid #ccc; /* Bordure */
+  border-radius: 5px; /* Bordure arrondie */
+  padding: 10px; /* Espacement à l'intérieur de chaque élément */
+}
+
+.itemName {
+  margin-left: 20px; /* Espacement entre le nom et l'image */
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.itemImage {
+  width: 50px; /* Taille fixe de l'image */
+  height: 50px; /* Taille fixe de l'image */
+}
+
+.itemCraft {
+  /* Style pour le champ ItemCraft si nécessaire */
+}
